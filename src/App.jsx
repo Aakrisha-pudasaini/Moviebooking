@@ -7,6 +7,7 @@ import MovieDetails from './pages/MovieDetails';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import MyBookings from './pages/MyBookings';
+import Booking from './pages/Booking';
 import Footer from './pages/Footer';
 import './App.css';
 
@@ -22,6 +23,7 @@ const App = () => {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/my-bookings" element={<MyBookings />} />
+          <Route path="/booking/:id" element={<Booking />} />
         </Routes>
       </div>
       <Footer />
